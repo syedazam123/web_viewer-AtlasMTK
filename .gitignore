@@ -1,0 +1,12 @@
+# Only ignore temporary and virtual environment files
+__pycache__/
+.venv/
+uploads/
+instance/
+*.pyc
+.env
+!app.py
+!Dockerfile
+!requirements.txt
+!run_server.bat
+!templates/**
