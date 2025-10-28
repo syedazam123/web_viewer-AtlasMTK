@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>MTK CAD Analyzer</title>
+</head>
+<body>
+<h1>Upload a CAD file (.stp) to analyze</h1>
+<form action="/analyze" method="post" enctype="multipart/form-data">
+<input type="file" name="cad_file" accept=".stp,.step" required />
+<button type="submit">Analyze</button>
+</form>
+<p>After upload, the server will run the MTK feature recognizer (and later DFM) and return a message.</p>
+</body>
+</html>
