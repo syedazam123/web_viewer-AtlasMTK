@@ -10,17 +10,20 @@ CORS(app, resources={r"/*": {"origins": "*"}})
 
 BASE_DIR = Path(__file__).parent.resolve()
 
-# Where converted models live (each model: <name>_mtk with <name>.mtkweb inside)
+# Where converted or uploaded models live
 UPLOAD_FOLDER = BASE_DIR / "uploads"
 UPLOAD_FOLDER.mkdir(parents=True, exist_ok=True)
+
 
 @app.get("/health")
 def health():
     return "ok", 200
 
+
 @app.get("/")
 def index():
     return "MTK static host is running. Try /api/listModels", 200
+
 
 @app.get("/api/listModels")
 def list_models():
@@ -57,11 +60,45 @@ def get_all_files():
             with open(full, "rb") as fh:
                 b64 = base64.b64encode(fh.read()).decode("ascii")
             out.append({
-                "name": name_only,       # filename only
-                "relativePath": rel,     # e.g., barrel.mtkweb/scenegraph.mtkweb
-                "buffer": b64            # base64 content
+                "name": name_only,
+                "relativePath": rel,
+                "buffer": b64
             })
     return jsonify(out)
+
+
+@app.post("/api/uploadModel")
+def upload_model():
+    """
+    Accepts multipart/form-data with multiple files.
+    Saves them to uploads/<folder_name>_mtk/, preserving folder structure.
+    """
+    if "files" not in request.files:
+        return jsonify({"error": "No files part in request"}), 400
+
+    uploaded_files = request.files.getlist("files")
+    if not uploaded_files:
+        return jsonify({"error": "No files uploaded"}), 400
+
+    # Infer model name from first file path or default
+    first_file = uploaded_files[0]
+    base_name = Path(first_file.filename).parts[0] if "/" in first_file.filename else "uploaded_model"
+    model_folder = f"{base_name}_mtk"
+    target_dir = UPLOAD_FOLDER / model_folder
+    target_dir.mkdir(parents=True, exist_ok=True)
+
+    # Save each uploaded file, preserving relative structure
+    for file in uploaded_files:
+        relative_path = Path(file.filename)
+        save_path = target_dir / relative_path
+        save_path.parent.mkdir(parents=True, exist_ok=True)
+        file.save(save_path)
+
+    return jsonify({
+        "status": "success",
+        "message": f"Model '{model_folder}' uploaded successfully.",
+        "modelName": model_folder
+    })
 
 
 @app.post("/analyze")
@@ -75,7 +112,6 @@ def analyze():
     if not file:
         return jsonify({"error": "No file uploaded"}), 400
 
-    # For now, just return a dummy folder name.
     filename = file.filename.rsplit(".", 1)[0]
     result_folder = f"{filename}_mtk"
     return jsonify({
