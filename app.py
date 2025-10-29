@@ -4,6 +4,7 @@ from flask_cors import CORS
 from pathlib import Path
 import os
 import base64
+import shutil
 
 app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": "*"}})
@@ -71,20 +72,22 @@ def get_all_files():
 def upload_model():
     """
     Accepts multipart/form-data with multiple files.
-    Saves them to uploads/<folder_name>_mtk/, preserving folder structure.
+    Saves them to uploads/{folderName}_mtk/, preserving folder structure.
+    Prevents duplicate folders by overwriting if exists.
     """
-    if "files" not in request.files:
-        return jsonify({"error": "No files part in request"}), 400
-
+    folder_name = request.form.get("folderName", "").strip()
     uploaded_files = request.files.getlist("files")
+
     if not uploaded_files:
         return jsonify({"error": "No files uploaded"}), 400
 
-    # Infer model name from first file path or default
-    first_file = uploaded_files[0]
-    base_name = Path(first_file.filename).parts[0] if "/" in first_file.filename else "uploaded_model"
-    model_folder = f"{base_name}_mtk"
+    # Derive model folder name
+    model_folder = f"{folder_name or 'uploaded_model'}_mtk"
     target_dir = UPLOAD_FOLDER / model_folder
+
+    # If folder already exists, clear it (overwrite behavior)
+    if target_dir.exists():
+        shutil.rmtree(target_dir)
     target_dir.mkdir(parents=True, exist_ok=True)
 
     # Save each uploaded file, preserving relative structure
