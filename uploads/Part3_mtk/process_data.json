@@ -1,0 +1,998 @@
+{
+    "version": "1",
+    "parts": [
+        {
+            "partId": "5cbb91d0-f69e-4e22-aefa-e1e7791fc3d5",
+            "process": "CNC Machining Milling",
+            "featureRecognition": {
+                "name": "Feature Recognition",
+                "totalFeatureCount": "44",
+                "featureGroups": [
+                    {
+                        "name": "Concave Fillet Edge Milling Face(s)",
+                        "color": "(129, 127, 38)",
+                        "totalGroupFeatureCount": "9",
+                        "subGroupCount": "1",
+                        "subGroups": [
+                            {
+                                "parametersCount": "1",
+                                "parameters": [
+                                    {
+                                        "name": "Radius",
+                                        "units": "mm",
+                                        "value": "1.00"
+                                    }
+                                ],
+                                "features": [
+                                    {
+                                        "shapeIDCount": "1",
+                                        "shapeIDs": [
+                                            {
+                                                "id": "15432919226004270140"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "shapeIDCount": "1",
+                                        "shapeIDs": [
+                                            {
+                                                "id": "7566919308678946853"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "shapeIDCount": "1",
+                                        "shapeIDs": [
+                                            {
+                                                "id": "7822316754451844467"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "shapeIDCount": "1",
+                                        "shapeIDs": [
+                                            {
+                                                "id": "7690149245840388625"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "shapeIDCount": "1",
+                                        "shapeIDs": [
+                                            {
+                                                "id": "8119514544994353255"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "shapeIDCount": "1",
+                                        "shapeIDs": [
+                                            {
+                                                "id": "5664037904398513697"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "shapeIDCount": "1",
+                                        "shapeIDs": [
+                                            {
+                                                "id": "12584445077977473955"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "shapeIDCount": "1",
+                                        "shapeIDs": [
+                                            {
+                                                "id": "8324541691763437620"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "shapeIDCount": "1",
+                                        "shapeIDs": [
+                                            {
+                                                "id": "4520149025743426295"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Convex Profile Edge Milling Face(s)",
+                        "color": "(240, 155, 89)",
+                        "totalGroupFeatureCount": "2",
+                        "subGroupCount": "1",
+                        "subGroups": [
+                            {
+                                "parametersCount": "1",
+                                "parameters": [
+                                    {
+                                        "name": "Radius",
+                                        "units": "mm",
+                                        "value": "12.50"
+                                    }
+                                ],
+                                "features": [
+                                    {
+                                        "shapeIDCount": "1",
+                                        "shapeIDs": [
+                                            {
+                                                "id": "12804713141830438288"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "shapeIDCount": "1",
+                                        "shapeIDs": [
+                                            {
+                                                "id": "7898132726693123384"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Curved Milled Face(s)",
+                        "color": "(22, 65, 124)",
+                        "totalGroupFeatureCount": "4",
+                        "features": [
+                        {
+                            "shapeIDCount": "1",
+                            "shapeIDs": [
+                                {
+                                    "id": "10555024013313207178"
+                                }
+                            ]
+                        },
+                        {
+                            "shapeIDCount": "1",
+                            "shapeIDs": [
+                                {
+                                    "id": "3158771990468538184"
+                                }
+                            ]
+                        },
+                        {
+                            "shapeIDCount": "1",
+                            "shapeIDs": [
+                                {
+                                    "id": "16801905811208897937"
+                                }
+                            ]
+                        },
+                        {
+                            "shapeIDCount": "1",
+                            "shapeIDs": [
+                                {
+                                    "id": "12203493043498499684"
+                                }
+                            ]
+                        }
+                        ]
+                    },
+                    {
+                        "name": "Flat Face Milled Face(s)",
+                        "color": "(115, 251, 253)",
+                        "totalGroupFeatureCount": "9",
+                        "features": [
+                        {
+                            "shapeIDCount": "1",
+                            "shapeIDs": [
+                                {
+                                    "id": "7874601841512329899"
+                                }
+                            ]
+                        },
+                        {
+                            "shapeIDCount": "1",
+                            "shapeIDs": [
+                                {
+                                    "id": "7305736029364188944"
+                                }
+                            ]
+                        },
+                        {
+                            "shapeIDCount": "1",
+                            "shapeIDs": [
+                                {
+                                    "id": "9626556602137711136"
+                                }
+                            ]
+                        },
+                        {
+                            "shapeIDCount": "1",
+                            "shapeIDs": [
+                                {
+                                    "id": "14564675854505257983"
+                                }
+                            ]
+                        },
+                        {
+                            "shapeIDCount": "1",
+                            "shapeIDs": [
+                                {
+                                    "id": "12711857197440122842"
+                                }
+                            ]
+                        },
+                        {
+                            "shapeIDCount": "1",
+                            "shapeIDs": [
+                                {
+                                    "id": "15733892164298193780"
+                                }
+                            ]
+                        },
+                        {
+                            "shapeIDCount": "1",
+                            "shapeIDs": [
+                                {
+                                    "id": "3656172717877664092"
+                                }
+                            ]
+                        },
+                        {
+                            "shapeIDCount": "1",
+                            "shapeIDs": [
+                                {
+                                    "id": "11696148929829544366"
+                                }
+                            ]
+                        },
+                        {
+                            "shapeIDCount": "1",
+                            "shapeIDs": [
+                                {
+                                    "id": "1820332381460396710"
+                                }
+                            ]
+                        }
+                        ]
+                    },
+                    {
+                        "name": "Flat Side Milled Face(s)",
+                        "color": "(0, 35, 245)",
+                        "totalGroupFeatureCount": "11",
+                        "features": [
+                        {
+                            "shapeIDCount": "1",
+                            "shapeIDs": [
+                                {
+                                    "id": "15031182338765067852"
+                                }
+                            ]
+                        },
+                        {
+                            "shapeIDCount": "1",
+                            "shapeIDs": [
+                                {
+                                    "id": "10195995680894079515"
+                                }
+                            ]
+                        },
+                        {
+                            "shapeIDCount": "1",
+                            "shapeIDs": [
+                                {
+                                    "id": "10267813224493367282"
+                                }
+                            ]
+                        },
+                        {
+                            "shapeIDCount": "1",
+                            "shapeIDs": [
+                                {
+                                    "id": "353978138964245335"
+                                }
+                            ]
+                        },
+                        {
+                            "shapeIDCount": "1",
+                            "shapeIDs": [
+                                {
+                                    "id": "3804785137460502001"
+                                }
+                            ]
+                        },
+                        {
+                            "shapeIDCount": "1",
+                            "shapeIDs": [
+                                {
+                                    "id": "13819489656217060191"
+                                }
+                            ]
+                        },
+                        {
+                            "shapeIDCount": "1",
+                            "shapeIDs": [
+                                {
+                                    "id": "13455489819879419197"
+                                }
+                            ]
+                        },
+                        {
+                            "shapeIDCount": "1",
+                            "shapeIDs": [
+                                {
+                                    "id": "5788464634459442655"
+                                }
+                            ]
+                        },
+                        {
+                            "shapeIDCount": "1",
+                            "shapeIDs": [
+                                {
+                                    "id": "15465938832609574742"
+                                }
+                            ]
+                        },
+                        {
+                            "shapeIDCount": "1",
+                            "shapeIDs": [
+                                {
+                                    "id": "16692059872772644232"
+                                }
+                            ]
+                        },
+                        {
+                            "shapeIDCount": "1",
+                            "shapeIDs": [
+                                {
+                                    "id": "17126188134224861593"
+                                }
+                            ]
+                        }
+                        ]
+                    },
+                    {
+                        "name": "Countersink(s)",
+                        "color": "(55, 125, 34)",
+                        "totalGroupFeatureCount": "4",
+                        "subGroupCount": "4",
+                        "subGroups": [
+                            {
+                                "parametersCount": "3",
+                                "parameters": [
+                                    {
+                                        "name": "Radius",
+                                        "units": "mm",
+                                        "value": "19.85"
+                                    },
+                                    {
+                                        "name": "Depth",
+                                        "units": "mm",
+                                        "value": "1.00"
+                                    },
+                                    {
+                                        "name": "Axis",
+                                        "units": "",
+                                        "value": "(0.00, 0.00, -1.00)"
+                                    }
+                                ],
+                                "features": [
+                                    {
+                                        "shapeIDCount": "2",
+                                        "shapeIDs": [
+                                            {
+                                                "id": "5445017321330361599"
+                                            },
+                                            {
+                                                "id": "7722491624015307708"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "parametersCount": "3",
+                                "parameters": [
+                                    {
+                                        "name": "Radius",
+                                        "units": "mm",
+                                        "value": "20.00"
+                                    },
+                                    {
+                                        "name": "Depth",
+                                        "units": "mm",
+                                        "value": "50.00"
+                                    },
+                                    {
+                                        "name": "Axis",
+                                        "units": "",
+                                        "value": "(0.00, 0.00, -1.00)"
+                                    }
+                                ],
+                                "features": [
+                                    {
+                                        "shapeIDCount": "2",
+                                        "shapeIDs": [
+                                            {
+                                                "id": "11602082361879769817"
+                                            },
+                                            {
+                                                "id": "13999621823994710250"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "parametersCount": "3",
+                                "parameters": [
+                                    {
+                                        "name": "Radius",
+                                        "units": "mm",
+                                        "value": "23.00"
+                                    },
+                                    {
+                                        "name": "Depth",
+                                        "units": "mm",
+                                        "value": "1.00"
+                                    },
+                                    {
+                                        "name": "Axis",
+                                        "units": "",
+                                        "value": "(0.00, 0.00, -1.00)"
+                                    }
+                                ],
+                                "features": [
+                                    {
+                                        "shapeIDCount": "2",
+                                        "shapeIDs": [
+                                            {
+                                                "id": "4524726215641414086"
+                                            },
+                                            {
+                                                "id": "4673071117913317545"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "parametersCount": "3",
+                                "parameters": [
+                                    {
+                                        "name": "Radius",
+                                        "units": "mm",
+                                        "value": "23.32"
+                                    },
+                                    {
+                                        "name": "Depth",
+                                        "units": "mm",
+                                        "value": "0.80"
+                                    },
+                                    {
+                                        "name": "Axis",
+                                        "units": "",
+                                        "value": "(0.00, 0.00, -1.00)"
+                                    }
+                                ],
+                                "features": [
+                                    {
+                                        "shapeIDCount": "2",
+                                        "shapeIDs": [
+                                            {
+                                                "id": "7094515207263304067"
+                                            },
+                                            {
+                                                "id": "11133646096694956860"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Flat Bottom Hole(s)",
+                        "color": "(235, 51, 36)",
+                        "totalGroupFeatureCount": "2",
+                        "subGroupCount": "2",
+                        "subGroups": [
+                            {
+                                "parametersCount": "3",
+                                "parameters": [
+                                    {
+                                        "name": "Radius",
+                                        "units": "mm",
+                                        "value": "10.00"
+                                    },
+                                    {
+                                        "name": "Depth",
+                                        "units": "mm",
+                                        "value": "30.00"
+                                    },
+                                    {
+                                        "name": "Axis",
+                                        "units": "",
+                                        "value": "(0.00, 0.00, -1.00)"
+                                    }
+                                ],
+                                "features": [
+                                    {
+                                        "shapeIDCount": "3",
+                                        "shapeIDs": [
+                                            {
+                                                "id": "4960053764929284461"
+                                            },
+                                            {
+                                                "id": "4519853842688425575"
+                                            },
+                                            {
+                                                "id": "6644899192997145181"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "parametersCount": "3",
+                                "parameters": [
+                                    {
+                                        "name": "Radius",
+                                        "units": "mm",
+                                        "value": "15.00"
+                                    },
+                                    {
+                                        "name": "Depth",
+                                        "units": "mm",
+                                        "value": "30.00"
+                                    },
+                                    {
+                                        "name": "Axis",
+                                        "units": "",
+                                        "value": "(0.00, 0.00, -1.00)"
+                                    }
+                                ],
+                                "features": [
+                                    {
+                                        "shapeIDCount": "3",
+                                        "shapeIDs": [
+                                            {
+                                                "id": "10957319235173679093"
+                                            },
+                                            {
+                                                "id": "2880823679461481570"
+                                            },
+                                            {
+                                                "id": "12486647013816522260"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Boss(es)",
+                        "color": "(56, 72, 13)",
+                        "totalGroupFeatureCount": "3",
+                        "subGroupCount": "1",
+                        "subGroups": [
+                            {
+                                "parametersCount": "3",
+                                "parameters": [
+                                    {
+                                        "name": "Length",
+                                        "units": "mm",
+                                        "value": "42.00"
+                                    },
+                                    {
+                                        "name": "Width",
+                                        "units": "mm",
+                                        "value": "5.91"
+                                    },
+                                    {
+                                        "name": "Height",
+                                        "units": "mm",
+                                        "value": "30.00"
+                                    }
+                                ],
+                                "features": [
+                                    {
+                                        "shapeIDCount": "9",
+                                        "shapeIDs": [
+                                            {
+                                                "id": "11335808605773572367"
+                                            },
+                                            {
+                                                "id": "17699900922854523325"
+                                            },
+                                            {
+                                                "id": "11080400469851731268"
+                                            },
+                                            {
+                                                "id": "12145482281834161044"
+                                            },
+                                            {
+                                                "id": "10824650380279915502"
+                                            },
+                                            {
+                                                "id": "5221757053156644115"
+                                            },
+                                            {
+                                                "id": "5594023697301503413"
+                                            },
+                                            {
+                                                "id": "4248290258677484467"
+                                            },
+                                            {
+                                                "id": "8073939053977660305"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "shapeIDCount": "9",
+                                        "shapeIDs": [
+                                            {
+                                                "id": "4345263374811529087"
+                                            },
+                                            {
+                                                "id": "11822375738149860402"
+                                            },
+                                            {
+                                                "id": "142648013469107506"
+                                            },
+                                            {
+                                                "id": "3549926858733375521"
+                                            },
+                                            {
+                                                "id": "4705227418964805934"
+                                            },
+                                            {
+                                                "id": "18095877469701699163"
+                                            },
+                                            {
+                                                "id": "17591532393113784026"
+                                            },
+                                            {
+                                                "id": "16455802146392804716"
+                                            },
+                                            {
+                                                "id": "5253386936452081690"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "shapeIDCount": "9",
+                                        "shapeIDs": [
+                                            {
+                                                "id": "10456900987270880787"
+                                            },
+                                            {
+                                                "id": "12215664548548869539"
+                                            },
+                                            {
+                                                "id": "14554505662591656587"
+                                            },
+                                            {
+                                                "id": "3898786601301766216"
+                                            },
+                                            {
+                                                "id": "5156435490166874046"
+                                            },
+                                            {
+                                                "id": "17551325279104310528"
+                                            },
+                                            {
+                                                "id": "16379109503845965788"
+                                            },
+                                            {
+                                                "id": "3029408396208328104"
+                                            },
+                                            {
+                                                "id": "4178452615807334541"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "dfm": {
+                "name": "Design for Manufacturing",
+                "totalFeatureCount": "12",
+                "featureGroups": [
+                    {
+                        "name": "Flat Bottom Hole(s)",
+                        "color": "(240, 155, 89)",
+                        "totalGroupFeatureCount": "2",
+                        "features": [
+                        {
+                            "shapeIDCount": "3",
+                            "shapeIDs": [
+                                {
+                                    "id": "4960053764929284461"
+                                },
+                                {
+                                    "id": "4519853842688425575"
+                                },
+                                {
+                                    "id": "6644899192997145181"
+                                }
+                            ]
+                        },
+                        {
+                            "shapeIDCount": "3",
+                            "shapeIDs": [
+                                {
+                                    "id": "10957319235173679093"
+                                },
+                                {
+                                    "id": "2880823679461481570"
+                                },
+                                {
+                                    "id": "12486647013816522260"
+                                }
+                            ]
+                        }
+                        ]
+                    },
+                    {
+                        "name": "High Boss Issue(s)",
+                        "color": "(180, 100, 50)",
+                        "totalGroupFeatureCount": "3",
+                        "subGroupCount": "1",
+                        "subGroups": [
+                            {
+                                "parametersCount": "2",
+                                "parameters": [
+                                    {
+                                        "name": "Expected Maximum Height",
+                                        "units": "mm",
+                                        "value": "23.65"
+                                    },
+                                    {
+                                        "name": "Actual Height",
+                                        "units": "mm",
+                                        "value": "30.00"
+                                    }
+                                ],
+                                "features": [
+                                    {
+                                        "shapeIDCount": "9",
+                                        "shapeIDs": [
+                                            {
+                                                "id": "11335808605773572367"
+                                            },
+                                            {
+                                                "id": "17699900922854523325"
+                                            },
+                                            {
+                                                "id": "11080400469851731268"
+                                            },
+                                            {
+                                                "id": "12145482281834161044"
+                                            },
+                                            {
+                                                "id": "10824650380279915502"
+                                            },
+                                            {
+                                                "id": "5221757053156644115"
+                                            },
+                                            {
+                                                "id": "5594023697301503413"
+                                            },
+                                            {
+                                                "id": "4248290258677484467"
+                                            },
+                                            {
+                                                "id": "8073939053977660305"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "shapeIDCount": "9",
+                                        "shapeIDs": [
+                                            {
+                                                "id": "4345263374811529087"
+                                            },
+                                            {
+                                                "id": "11822375738149860402"
+                                            },
+                                            {
+                                                "id": "142648013469107506"
+                                            },
+                                            {
+                                                "id": "3549926858733375521"
+                                            },
+                                            {
+                                                "id": "4705227418964805934"
+                                            },
+                                            {
+                                                "id": "18095877469701699163"
+                                            },
+                                            {
+                                                "id": "17591532393113784026"
+                                            },
+                                            {
+                                                "id": "16455802146392804716"
+                                            },
+                                            {
+                                                "id": "5253386936452081690"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "shapeIDCount": "9",
+                                        "shapeIDs": [
+                                            {
+                                                "id": "10456900987270880787"
+                                            },
+                                            {
+                                                "id": "12215664548548869539"
+                                            },
+                                            {
+                                                "id": "14554505662591656587"
+                                            },
+                                            {
+                                                "id": "3898786601301766216"
+                                            },
+                                            {
+                                                "id": "5156435490166874046"
+                                            },
+                                            {
+                                                "id": "17551325279104310528"
+                                            },
+                                            {
+                                                "id": "16379109503845965788"
+                                            },
+                                            {
+                                                "id": "3029408396208328104"
+                                            },
+                                            {
+                                                "id": "4178452615807334541"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Small Radius Milled Part Internal Corner(s)",
+                        "color": "(10, 10, 200)",
+                        "totalGroupFeatureCount": "4",
+                        "subGroupCount": "1",
+                        "subGroups": [
+                            {
+                                "parametersCount": "2",
+                                "parameters": [
+                                    {
+                                        "name": "Expected Minimum Radius",
+                                        "units": "mm",
+                                        "value": "6.33"
+                                    },
+                                    {
+                                        "name": "Actual Radius",
+                                        "units": "mm",
+                                        "value": "0.00"
+                                    }
+                                ],
+                                "features": [
+                                    {
+                                        "shapeIDCount": "2",
+                                        "shapeIDs": [
+                                            {
+                                                "id": "5788464634459442655"
+                                            },
+                                            {
+                                                "id": "15031182338765067852"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "shapeIDCount": "2",
+                                        "shapeIDs": [
+                                            {
+                                                "id": "15465938832609574742"
+                                            },
+                                            {
+                                                "id": "10195995680894079515"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "shapeIDCount": "2",
+                                        "shapeIDs": [
+                                            {
+                                                "id": "16692059872772644232"
+                                            },
+                                            {
+                                                "id": "13455489819879419197"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "shapeIDCount": "2",
+                                        "shapeIDs": [
+                                            {
+                                                "id": "17126188134224861593"
+                                            },
+                                            {
+                                                "id": "15031182338765067852"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Non Perpendicular Milled Part Shape(s)",
+                        "color": "(129, 227, 138)",
+                        "totalGroupFeatureCount": "3",
+                        "subGroupCount": "2",
+                        "subGroups": [
+                            {
+                                "parametersCount": "1",
+                                "parameters": [
+                                    {
+                                        "name": "Actual Angle",
+                                        "units": "deg",
+                                        "value": "101.31"
+                                    }
+                                ],
+                                "features": [
+                                    {
+                                        "shapeIDCount": "2",
+                                        "shapeIDs": [
+                                            {
+                                                "id": "7898132726693123384"
+                                            },
+                                            {
+                                                "id": "7874601841512329899"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "shapeIDCount": "2",
+                                        "shapeIDs": [
+                                            {
+                                                "id": "12804713141830438288"
+                                            },
+                                            {
+                                                "id": "7874601841512329899"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "parametersCount": "1",
+                                "parameters": [
+                                    {
+                                        "name": "Actual Angle",
+                                        "units": "deg",
+                                        "value": "145.18"
+                                    }
+                                ],
+                                "features": [
+                                    {
+                                        "shapeIDCount": "2",
+                                        "shapeIDs": [
+                                            {
+                                                "id": "14564675854505257983"
+                                            },
+                                            {
+                                                "id": "7874601841512329899"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
