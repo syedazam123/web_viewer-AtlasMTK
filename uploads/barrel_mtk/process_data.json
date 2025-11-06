@@ -1,0 +1,221 @@
+{
+    "featureRecognition": {
+        "featureGroups": [
+            {
+                "name": "Curved Milled Face(s)",
+                "type": "Face",
+                "parameters": [],
+                "parametersCount": 0,
+                "features": [
+                    {
+                        "type": "Face",
+                        "parametersCount": 0
+                    },
+                    {
+                        "type": "Face",
+                        "parametersCount": 0
+                    },
+                    {
+                        "type": "Face",
+                        "parametersCount": 0
+                    }
+                ]
+            },
+            {
+                "name": "Flat Side Milled Face(s)",
+                "type": "Face",
+                "parameters": [],
+                "parametersCount": 0,
+                "features": [
+                    {
+                        "type": "Face",
+                        "parametersCount": 0
+                    },
+                    {
+                        "type": "Face",
+                        "parametersCount": 0
+                    },
+                    {
+                        "type": "Face",
+                        "parametersCount": 0
+                    },
+                    {
+                        "type": "Face",
+                        "parametersCount": 0
+                    }
+                ]
+            },
+            {
+                "name": "Through Hole(s)",
+                "type": "Hole",
+                "parameters": [
+                    {
+                        "name": "radius",
+                        "units": "mm",
+                        "value": 5.0
+                    },
+                    {
+                        "name": "depth",
+                        "units": "mm",
+                        "value": 10.0
+                    },
+                    {
+                        "name": "axis",
+                        "units": "",
+                        "value": "(0.000, 0.000, 1.000)"
+                    },
+                    {
+                        "name": "radius",
+                        "units": "mm",
+                        "value": 5.0
+                    },
+                    {
+                        "name": "depth",
+                        "units": "mm",
+                        "value": 10.0
+                    },
+                    {
+                        "name": "axis",
+                        "units": "",
+                        "value": "(0.000, 0.000, 1.000)"
+                    },
+                    {
+                        "name": "radius",
+                        "units": "mm",
+                        "value": 5.682
+                    },
+                    {
+                        "name": "depth",
+                        "units": "mm",
+                        "value": 420.0
+                    },
+                    {
+                        "name": "axis",
+                        "units": "",
+                        "value": "(0.000, 0.000, 1.000)"
+                    },
+                    {
+                        "name": "radius",
+                        "units": "mm",
+                        "value": 5.0
+                    },
+                    {
+                        "name": "depth",
+                        "units": "mm",
+                        "value": 10.0
+                    },
+                    {
+                        "name": "axis",
+                        "units": "",
+                        "value": "(0.000, 0.000, 1.000)"
+                    },
+                    {
+                        "name": "radius",
+                        "units": "mm",
+                        "value": 5.0
+                    },
+                    {
+                        "name": "depth",
+                        "units": "mm",
+                        "value": 10.0
+                    },
+                    {
+                        "name": "axis",
+                        "units": "",
+                        "value": "(0.000, 0.000, 1.000)"
+                    },
+                    {
+                        "name": "radius",
+                        "units": "mm",
+                        "value": 5.0
+                    },
+                    {
+                        "name": "depth",
+                        "units": "mm",
+                        "value": 10.0
+                    },
+                    {
+                        "name": "axis",
+                        "units": "",
+                        "value": "(0.000, 0.000, 1.000)"
+                    },
+                    {
+                        "name": "radius",
+                        "units": "mm",
+                        "value": 5.0
+                    },
+                    {
+                        "name": "depth",
+                        "units": "mm",
+                        "value": 10.0
+                    },
+                    {
+                        "name": "axis",
+                        "units": "",
+                        "value": "(0.000, 0.000, 1.000)"
+                    }
+                ],
+                "parametersCount": 21,
+                "features": [
+                    {
+                        "type": "Hole",
+                        "parametersCount": 3
+                    },
+                    {
+                        "type": "Hole",
+                        "parametersCount": 3
+                    },
+                    {
+                        "type": "Hole",
+                        "parametersCount": 3
+                    },
+                    {
+                        "type": "Hole",
+                        "parametersCount": 3
+                    },
+                    {
+                        "type": "Hole",
+                        "parametersCount": 3
+                    },
+                    {
+                        "type": "Hole",
+                        "parametersCount": 3
+                    },
+                    {
+                        "type": "Hole",
+                        "parametersCount": 3
+                    }
+                ]
+            },
+            {
+                "name": "Circular Milled Face(s)",
+                "type": "Face",
+                "parameters": [],
+                "parametersCount": 0,
+                "features": [
+                    {
+                        "type": "Face",
+                        "parametersCount": 0
+                    }
+                ]
+            }
+        ]
+    },
+    "featureMeasurements": [
+        {
+            "name": "Volume",
+            "units": "mm\u00b3",
+            "value": 501271.407
+        },
+        {
+            "name": "Surface Area",
+            "units": "mm\u00b2",
+            "value": 192806.728
+        },
+        {
+            "name": "Centroid",
+            "units": "mm",
+            "value": "(0.101, 0.0, 200.0)"
+        }
+    ]
+}
