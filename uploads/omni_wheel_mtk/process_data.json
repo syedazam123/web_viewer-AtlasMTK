@@ -28,7 +28,7 @@
                                         "shapeIDCount": "1",
                                         "shapeIDs": [
                                             {
-                                                "id": "11046070763563792892"
+                                                "id": "15736465453138381976"
                                             }
                                         ]
                                     },
@@ -36,7 +36,7 @@
                                         "shapeIDCount": "1",
                                         "shapeIDs": [
                                             {
-                                                "id": "17236715694618706392"
+                                                "id": "16256484602026035410"
                                             }
                                         ]
                                     }
@@ -56,7 +56,7 @@
                                         "shapeIDCount": "1",
                                         "shapeIDs": [
                                             {
-                                                "id": "15250434623024130189"
+                                                "id": "10090302810328069243"
                                             }
                                         ]
                                     }
@@ -69,22 +69,46 @@
                         "color": "(0, 35, 245)",
                         "totalGroupFeatureCount": "2",
                         "features": [
-                        {
-                            "shapeIDCount": "1",
-                            "shapeIDs": [
-                                {
-                                    "id": "4226464393427143590"
-                                }
-                            ]
-                        },
-                        {
-                            "shapeIDCount": "1",
-                            "shapeIDs": [
-                                {
-                                    "id": "10402785090996329688"
-                                }
-                            ]
-                        }
+                            {
+                                "shapeIDCount": "1",
+                                "shapeIDs": [
+                                    {
+                                        "id": "4627410822592405945"
+                                    }
+                                ],
+                                "parameters": [
+                                    {
+                                        "name": "Surface Area",
+                                        "value": 202.633,
+                                        "units": "mm\u00b2"
+                                    },
+                                    {
+                                        "name": "Centroid",
+                                        "value": "(-0.000, -11.000, 0.000)",
+                                        "units": "mm"
+                                    }
+                                ]
+                            },
+                            {
+                                "shapeIDCount": "1",
+                                "shapeIDs": [
+                                    {
+                                        "id": "9218094023334331810"
+                                    }
+                                ],
+                                "parameters": [
+                                    {
+                                        "name": "Surface Area",
+                                        "value": 4.909,
+                                        "units": "mm\u00b2"
+                                    },
+                                    {
+                                        "name": "Centroid",
+                                        "value": "(-0.000, -22.000, 0.000)",
+                                        "units": "mm"
+                                    }
+                                ]
+                            }
                         ]
                     }
                 ]
@@ -106,14 +130,26 @@
                         "color": "(22, 65, 124)",
                         "totalGroupFeatureCount": "1",
                         "features": [
-                        {
-                            "shapeIDCount": "1",
-                            "shapeIDs": [
-                                {
-                                    "id": "10209908311952812020"
-                                }
-                            ]
-                        }
+                            {
+                                "shapeIDCount": "1",
+                                "shapeIDs": [
+                                    {
+                                        "id": "9798773236937991567"
+                                    }
+                                ],
+                                "parameters": [
+                                    {
+                                        "name": "Surface Area",
+                                        "value": 28.274,
+                                        "units": "mm\u00b2"
+                                    },
+                                    {
+                                        "name": "Centroid",
+                                        "value": "(-0.000, -0.000, -0.000)",
+                                        "units": "mm"
+                                    }
+                                ]
+                            }
                         ]
                     },
                     {
@@ -121,22 +157,35 @@
                         "color": "(0, 35, 245)",
                         "totalGroupFeatureCount": "2",
                         "features": [
-                        {
-                            "shapeIDCount": "1",
-                            "shapeIDs": [
-                                {
-                                    "id": "17292166443988672501"
-                                }
-                            ]
-                        },
-                        {
-                            "shapeIDCount": "1",
-                            "shapeIDs": [
-                                {
-                                    "id": "17206953000750140366"
-                                }
-                            ]
-                        }
+                            {
+                                "shapeIDCount": "1",
+                                "shapeIDs": [
+                                    {
+                                        "id": "5448639768171932345"
+                                    }
+                                ],
+                                "parameters": []
+                            },
+                            {
+                                "shapeIDCount": "1",
+                                "shapeIDs": [
+                                    {
+                                        "id": "16807935676690903504"
+                                    }
+                                ],
+                                "parameters": [
+                                    {
+                                        "name": "Surface Area",
+                                        "value": 28.274,
+                                        "units": "mm\u00b2"
+                                    },
+                                    {
+                                        "name": "Centroid",
+                                        "value": "(19.000, -0.000, 0.000)",
+                                        "units": "mm"
+                                    }
+                                ]
+                            }
                         ]
                     },
                     {
@@ -159,19 +208,19 @@
                                         "shapeIDCount": "5",
                                         "shapeIDs": [
                                             {
-                                                "id": "14262337832237350181"
+                                                "id": "6600979958200023540"
                                             },
                                             {
-                                                "id": "11472575000011561512"
+                                                "id": "17849588199794353954"
                                             },
                                             {
-                                                "id": "7065354184650576398"
+                                                "id": "2526105435930101232"
                                             },
                                             {
-                                                "id": "12287932567546302614"
+                                                "id": "16586698723919174482"
                                             },
                                             {
-                                                "id": "2719907539464575324"
+                                                "id": "14083598181396447010"
                                             }
                                         ]
                                     }
@@ -198,14 +247,26 @@
                         "color": "(22, 65, 124)",
                         "totalGroupFeatureCount": "1",
                         "features": [
-                        {
-                            "shapeIDCount": "1",
-                            "shapeIDs": [
-                                {
-                                    "id": "2831622618483578974"
-                                }
-                            ]
-                        }
+                            {
+                                "shapeIDCount": "1",
+                                "shapeIDs": [
+                                    {
+                                        "id": "17491952149963833850"
+                                    }
+                                ],
+                                "parameters": [
+                                    {
+                                        "name": "Surface Area",
+                                        "value": 27.489,
+                                        "units": "mm\u00b2"
+                                    },
+                                    {
+                                        "name": "Centroid",
+                                        "value": "(0.000, -2.421, 0.000)",
+                                        "units": "mm"
+                                    }
+                                ]
+                            }
                         ]
                     },
                     {
@@ -213,22 +274,51 @@
                         "color": "(115, 251, 253)",
                         "totalGroupFeatureCount": "2",
                         "features": [
-                        {
-                            "shapeIDCount": "1",
-                            "shapeIDs": [
-                                {
-                                    "id": "17327716516999845033"
-                                }
-                            ]
-                        },
-                        {
-                            "shapeIDCount": "1",
-                            "shapeIDs": [
-                                {
-                                    "id": "14345228962705835970"
-                                }
-                            ]
-                        }
+                            {
+                                "shapeIDCount": "1",
+                                "shapeIDs": [
+                                    {
+                                        "id": "12425577865098127555"
+                                    }
+                                ],
+                                "parameters": [
+                                    {
+                                        "name": "Surface Area",
+                                        "value": 75.398,
+                                        "units": "mm\u00b2"
+                                    },
+                                    {
+                                        "name": "Centroid",
+                                        "value": "(0.000, -1.500, 0.000)",
+                                        "units": "mm"
+                                    }
+                                ]
+                            },
+                            {
+                                "shapeIDCount": "1",
+                                "shapeIDs": [
+                                    {
+                                        "id": "3934014652973294781"
+                                    }
+                                ],
+                                "parameters": [
+                                    {
+                                        "name": "Volume",
+                                        "value": 28.863,
+                                        "units": "mm\u00b3"
+                                    },
+                                    {
+                                        "name": "Surface Area",
+                                        "value": 32.987,
+                                        "units": "mm\u00b2"
+                                    },
+                                    {
+                                        "name": "Centroid",
+                                        "value": "(0.000, -1.500, 0.000)",
+                                        "units": "mm"
+                                    }
+                                ]
+                            }
                         ]
                     },
                     {
@@ -261,7 +351,7 @@
                                         "shapeIDCount": "1",
                                         "shapeIDs": [
                                             {
-                                                "id": "16584303000009064886"
+                                                "id": "16855892764485540259"
                                             }
                                         ]
                                     }
@@ -299,10 +389,10 @@
                                         "shapeIDCount": "2",
                                         "shapeIDs": [
                                             {
-                                                "id": "12402873660611616546"
+                                                "id": "1789875341510846011"
                                             },
                                             {
-                                                "id": "17276278384288933784"
+                                                "id": "9248420955903512789"
                                             }
                                         ]
                                     }
@@ -340,10 +430,10 @@
                                         "shapeIDCount": "2",
                                         "shapeIDs": [
                                             {
-                                                "id": "530136663340967787"
+                                                "id": "7326779998833810280"
                                             },
                                             {
-                                                "id": "15516380244512422315"
+                                                "id": "16534765857179177079"
                                             }
                                         ]
                                     }
@@ -382,7 +472,7 @@
                                         "shapeIDCount": "1",
                                         "shapeIDs": [
                                             {
-                                                "id": "16584303000009064886"
+                                                "id": "16855892764485540259"
                                             }
                                         ]
                                     }
@@ -407,10 +497,10 @@
                                         "shapeIDCount": "2",
                                         "shapeIDs": [
                                             {
-                                                "id": "12402873660611616546"
+                                                "id": "1789875341510846011"
                                             },
                                             {
-                                                "id": "17276278384288933784"
+                                                "id": "9248420955903512789"
                                             }
                                         ]
                                     }
@@ -423,17 +513,17 @@
                         "color": "(240, 155, 89)",
                         "totalGroupFeatureCount": "1",
                         "features": [
-                        {
-                            "shapeIDCount": "2",
-                            "shapeIDs": [
-                                {
-                                    "id": "12402873660611616546"
-                                },
-                                {
-                                    "id": "17276278384288933784"
-                                }
-                            ]
-                        }
+                            {
+                                "shapeIDCount": "2",
+                                "shapeIDs": [
+                                    {
+                                        "id": "1789875341510846011"
+                                    },
+                                    {
+                                        "id": "9248420955903512789"
+                                    }
+                                ]
+                            }
                         ]
                     }
                 ]

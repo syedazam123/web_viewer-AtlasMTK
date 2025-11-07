@@ -1,0 +1,21 @@
+{
+    "version": "1",
+    "partId": "f34563e1-2561-541c-aa03-a84536589ce8",
+    "measurements": {
+        "volume": {
+            "name": "Volume",
+            "units": "mm\u00b3",
+            "value": 15434.441
+        },
+        "surfaceArea": {
+            "name": "Surface Area",
+            "units": "mm\u00b2",
+            "value": 33679.247
+        },
+        "centroid": {
+            "name": "Centroid",
+            "units": "mm",
+            "value": "(-99.523, 34.937, 6.938)"
+        }
+    }
+}
